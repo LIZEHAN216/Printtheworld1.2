@@ -1,15 +1,22 @@
 package fr.insalyon.painttheworldapp.Navigation_drawer;
 
+import android.app.ActionBar;
+import android.app.Activity;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.graphics.Bitmap;
 import android.graphics.BlendMode;
 import android.graphics.BlendModeColorFilter;
 import android.graphics.Color;
 import android.graphics.PorterDuff;
+import android.graphics.Rect;
 import android.location.Location;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Environment;
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -23,6 +30,7 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 
 import com.github.nkzawa.socketio.client.Socket;
@@ -38,22 +46,28 @@ import org.osmdroid.views.overlay.mylocation.IMyLocationConsumer;
 import org.osmdroid.views.overlay.mylocation.IMyLocationProvider;
 import org.osmdroid.views.overlay.mylocation.MyLocationNewOverlay;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
 import java.util.Locale;
 
 import fr.insalyon.painttheworldapp.BuildConfig;
 import fr.insalyon.painttheworldapp.R;
+import fr.insalyon.painttheworldapp.util.MyView;
 
-public class Fragment_first extends Fragment implements IMyLocationConsumer {
+public class Fragment_first extends Fragment implements IMyLocationConsumer, View.OnTouchListener {
+
     /**Elements généraux */
     private Context context;
     private Fragment_first MA;
     private String playerName = "RootUser42";
     private int playerLevel= 420;
     private boolean premium=false;
+    File ext = Environment.getExternalStorageDirectory();
 
 
     /**Elements d'interface */
-    private Button bBlue, bRed, bPlus, bMinus, bGreen, bCyan, bMagenta, bYellow, bBlack, bWhite, bEraseAll, bSend;
+    private Button bBlue, bRed, bPlus, bMinus, bGreen, bCyan, bMagenta, bYellow, bBlack, bWhite, bEraseAll, bSend, bScreenShot;
     private ImageButton bUndo, bRedo;
     private SeekBar sRed, sGreen, sBlue, sThickness;
     private Switch sPremium;
@@ -77,12 +91,23 @@ public class Fragment_first extends Fragment implements IMyLocationConsumer {
     private Socket mSocket;
     public static final String SERVER_URL = "https://paint.antoine-rcbs.ovh:443";
 
+    /** Elements du screenshot */
+    private int x;
+    private int y;
+    private int m;
+    private int n;
+    private int width;
+    private int height;
+    private Bitmap bitmap;
+    private MyView myView;
+
 
 
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
         View root = inflater.inflate(R.layout.fragment_first, container, false);
+        myView = new MyView(getContext());
         context = root.getContext();
         locationConsumer = this;
         MA = this;
@@ -116,6 +141,10 @@ public class Fragment_first extends Fragment implements IMyLocationConsumer {
         linear.addView(canvas);
         iCircle = root.findViewById(R.id.imageCircle);
         updateRatio();
+
+        iCircle.setOnTouchListener(this);
+
+
         System.out.println("height" + iCircle.getHeight());
         sPremium = root.findViewById(R.id.switchPremium);
         sPremium.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
@@ -344,6 +373,25 @@ public class Fragment_first extends Fragment implements IMyLocationConsumer {
                 buttonColor(Color.WHITE);
             }
         });
+        bScreenShot = root.findViewById(R.id.buttonScreenShot);
+        bScreenShot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if(myView.isSign()){
+                    myView.setSeat(0,0,0,0);
+                    myView.setSign(false);
+                    bScreenShot.setText("停止截屏");
+                }else{
+                    myView.setSign(true);
+                    bScreenShot.setText("开始截屏");
+
+                }
+                myView.postInvalidate();
+            }
+        });
+
+        getActivity().addContentView(myView, new ActionBar.LayoutParams(ActionBar.LayoutParams.WRAP_CONTENT));
+
         return root;
     }
 
@@ -397,7 +445,7 @@ public class Fragment_first extends Fragment implements IMyLocationConsumer {
 
 
 
-@Override
+    @Override
 //    public boolean onOptionsItemSelected(MenuItem item) {
 //        if (item.getItemId() == android.R.id.home){
 //            AlertDialog.Builder newDialog = new AlertDialog.Builder(context);
@@ -472,5 +520,76 @@ public class Fragment_first extends Fragment implements IMyLocationConsumer {
 
     public MapView getMap(){
         return mMapView;
+    }
+
+
+    @Override
+    public boolean onTouch(View v, MotionEvent event) {
+        if(event.getAction() == MotionEvent.ACTION_DOWN){
+            x = 0;
+            y = 0;
+            width = 0;
+            height = 0;
+            x = (int) event.getX();
+            y = (int) event.getY();
+
+            Log.i(playerName, "onTouch: x = "+x +" y = "+y);
+        }
+
+        if(event.getAction() == MotionEvent.ACTION_MOVE){
+            m = (int) event.getX();
+            n = (int) event.getY();
+            myView.setSeat(x,y,m,n);
+            myView.postInvalidate();
+
+            Log.i(playerName, "onTouch: x = "+x +" y = "+y +" m = "+m +" n = "+n);
+        }
+
+        if(event.getAction() == MotionEvent.ACTION_UP){
+            if(event.getX()>x){
+                width = (int)event.getX()-x;
+            }else{
+                width = (int)(x-event.getX());
+                x = (int) event.getX();
+            }
+            if(event.getY()>y){
+                height = (int) event.getY()-y;
+            }else{
+                height = (int)(y-event.getY());
+                y = (int) event.getY();
+            }
+
+            Log.i(playerName, "onTouch: x = "+x +" y = "+y +" m = "+m +" n = "+n);
+
+
+        }
+
+        if(myView.isSign()){
+            return false;
+        }else{
+            return true;
+        }
+    }
+
+
+    private Bitmap getBitmap(Activity activity){
+        View view = activity.getWindow().getDecorView();
+        view.setDrawingCacheEnabled(true);
+        view.buildDrawingCache();
+        bitmap = view.getDrawingCache();
+        Rect frame = new Rect();
+        activity.getWindow().getDecorView().getWindowVisibleDisplayFrame(frame);
+        int toHeight = frame.top;
+        bitmap = Bitmap.createBitmap(bitmap, x, y+2*toHeight + 108, width, height);
+        try {
+
+            FileOutputStream fout = new FileOutputStream(new File(ext,"testScreenShot.png"));
+            bitmap.compress(Bitmap.CompressFormat.PNG, 100, fout);
+        } catch (FileNotFoundException e) {
+            // TODO Auto-generated catch block
+            e.printStackTrace();
+        }
+        view.setDrawingCacheEnabled(false);
+        return bitmap;
     }
 }

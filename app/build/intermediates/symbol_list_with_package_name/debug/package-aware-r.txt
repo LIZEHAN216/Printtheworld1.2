@@ -1622,6 +1622,7 @@ id buttonPlay
 id buttonPlus
 id buttonRed
 id buttonRedo
+id buttonScreenShot
 id buttonSend
 id buttonUndo
 id buttonWhite
