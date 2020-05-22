@@ -65,9 +65,9 @@ public class Login extends AppCompatActivity {
                 } else if (!Rembme.isChecked()) {
                     file = new File(ext, "user.txt");
                 }
-                if(!isEmail(Email.getText().toString())) {
-                    Toast.makeText(Login.this, "Votre email est non correct.", Toast.LENGTH_SHORT).show();
-                }else if(!isPassword(Password.getText().toString())){
+//                if(!isEmail(Email.getText().toString())) {
+//                    Toast.makeText(Login.this, "Votre email est non correct.", Toast.LENGTH_SHORT).show();
+                 if(!isPassword(Password.getText().toString())){
                     Toast.makeText(Login.this, "Votre password < 5 bytes",Toast.LENGTH_SHORT).show();
                 }else {
                     Intent intent = new Intent();
@@ -100,7 +100,7 @@ public class Login extends AppCompatActivity {
             BufferedReader br = new BufferedReader(reader);
             String text = br.readLine();
             String[] arr = text.split("#");
-            Email.setText(arr[0]);
+            Email.setText(arr[4]);
             Password.setText(arr[1]);
             br.close();
         } catch (Exception e) {

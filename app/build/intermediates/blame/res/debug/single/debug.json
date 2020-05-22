@@ -20,6 +20,10 @@
         "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/undo.png"
     },
     {
+        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
+        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/xml/network_security_config.xml"
+    },
+    {
         "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_nav_header_map.xml.flat",
         "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/nav_header_map.xml"
     },

@@ -12,7 +12,7 @@
         android:layout_height="57dp"
         android:layout_marginTop="84dp"
         android:ems="10"
-        android:hint="Entez votre email"
+        android:hint="Entez votre username"
         android:inputType="textEmailAddress"
         android:maxLines="1"
         app:layout_constraintStart_toEndOf="@+id/Password"
@@ -75,9 +75,8 @@
         android:id="@+id/Email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="20dp"
         android:layout_marginBottom="12dp"
-        android:text="Email: "
+        android:text="Username: "
         app:layout_constraintBottom_toBottomOf="@+id/email"
         app:layout_constraintEnd_toStartOf="@+id/email" />
 

@@ -1,4 +1,4 @@
-#Fri May 22 04:19:24 CEST 2020
+#Fri May 22 16:31:22 CEST 2020
 base.0=/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
