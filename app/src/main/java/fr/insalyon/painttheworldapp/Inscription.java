@@ -39,17 +39,8 @@ public class Inscription extends AppCompatActivity {
     private EditText Email,Password,Nom,Prenom,Username;
     private Button Inscription;
     File ext = Environment.getExternalStorageDirectory();
-    private static String baseURL = "https://paint.antoine-rcbs.ovh/";
-    private static URL url;
+    private static String baseURL = "https://paint.antoine-rcbs.ovh/inscription";
     public Inscription(){}
-
-//    static{
-//        try {
-//            url = new URL(PATH);
-//        } catch (MalformedURLException e) {
-//            e.printStackTrace();
-//        }
-//    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -130,75 +121,4 @@ public class Inscription extends AppCompatActivity {
             return true;
         }
     }
-
-//    public static String sendPostMessage(Map<String, String> params,String email, String password,String
-//            nom,String prenom, String username,String encode){
-//        params.put("name", nom);
-//        params.put("p_nom", prenom);
-//        params.put("email", email);
-//        params.put("username", username);
-//        params.put("password1", password);
-//        params.put("password2", password);
-//        StringBuffer buffer = new StringBuffer();
-//        try {
-//            if(params != null&&!params.isEmpty()){
-//                for(Map.Entry<String, String> entry : params.entrySet()){
-//                    buffer.append(entry.getKey()).append("=").
-//                            append(URLEncoder.encode(entry.getValue(),encode)).
-//                            append("&");
-//                }
-//            }
-//
-//            buffer.deleteCharAt(buffer.length()-1);
-//            byte[] mydata = buffer.toString().getBytes();
-//            HttpURLConnection connection = (HttpURLConnection) url.openConnection();
-//            connection.setConnectTimeout(3000);
-//            connection.setDoInput(true);
-//            connection.setDoOutput(true);
-//
-//            connection.setRequestMethod("POST");
-//            connection.setUseCaches(false);
-//            connection.setRequestProperty("Content-Type", "application/x-www-form-urlencoded");
-//
-//            connection.setRequestProperty("Content-Length", String.valueOf(mydata.length));
-//            connection.connect();
-//
-//            OutputStream outputStream = connection.getOutputStream();
-//            outputStream.write(mydata,0,mydata.length);
-//
-//            int responseCode = connection.getResponseCode();
-//            if(responseCode == HttpURLConnection.HTTP_OK){
-//                return changeInputeStream(connection.getInputStream(),encode);
-//
-//            }
-//        } catch (UnsupportedEncodingException e) {
-//            // TODO Auto-generated catch block
-//            e.printStackTrace();
-//        } catch (IOException e) {
-//            // TODO Auto-generated catch block
-//            e.printStackTrace();
-//        }
-//        return "";
-//    }
-//    private static String changeInputeStream(InputStream inputStream, String encode) {
-//        ByteArrayOutputStream outputStream = new ByteArrayOutputStream();
-//        byte[] data = new byte[1024];
-//        int len = 0;
-//        String result = "";
-//        if(inputStream != null){
-//            try {
-//                while((len = inputStream.read(data))!=-1){
-//                    data.toString();
-//
-//                    outputStream.write(data, 0, len);
-//                }
-//                result = new String(outputStream.toByteArray(),encode);
-//                outputStream.flush();
-//            } catch (IOException e) {
-//                // TODO Auto-generated catch block
-//                e.printStackTrace();
-//            }
-//        }
-//        return result;
-//    }
 }

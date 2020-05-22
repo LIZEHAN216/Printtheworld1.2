@@ -4,6 +4,7 @@ import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.StrictMode;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
@@ -23,19 +24,23 @@ import java.io.IOException;
 import java.io.OutputStream;
 import java.io.OutputStreamWriter;
 import java.nio.charset.StandardCharsets;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+import fr.insalyon.painttheworldapp.util.HttpUtils;
 import fr.insalyon.painttheworldapp.util.PermissionUtils;
 
 public class Login extends AppCompatActivity {
 
     private Button Button_confirmer;
     private Button Button_inscription;
-    private EditText Email;
+    private EditText Username;
     private EditText Password;
     private CheckBox Rembme;
     File ext = Environment.getExternalStorageDirectory();
+    private static String baseURL = "https://paint.antoine-rcbs.ovh/login";
     private File file;
 
 
@@ -46,9 +51,14 @@ public class Login extends AppCompatActivity {
 
         Button_confirmer = (Button) findViewById(R.id.confirmer);
         Button_inscription = (Button) findViewById(R.id.inscription);
-        Email = findViewById(R.id.email);
+        Username = findViewById(R.id.email);
         Password = findViewById(R.id.password);
         Rembme = findViewById(R.id.rembme);
+
+        if (android.os.Build.VERSION.SDK_INT > 9) {
+            StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.Builder().permitAll().build();
+            StrictMode.setThreadPolicy(policy);
+        }
 
         loadinfo();
 
@@ -57,9 +67,15 @@ public class Login extends AppCompatActivity {
         Button_confirmer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                String email = Email.getText().toString().trim();
+                String username = Username.getText().toString().trim();
                 String password = Password.getText().toString().trim();
-                if (TextUtils.isEmpty(email) || TextUtils.isEmpty(password)) {
+                Map<String, String> params =  new HashMap<String, String>();
+
+                params.put("username", username);
+                params.put("password", password);
+
+                String strResult= HttpUtils.submitPostData(baseURL,params, "utf-8");
+                if (TextUtils.isEmpty(username) || TextUtils.isEmpty(password)) {
                     Toast.makeText(Login.this, "Mot de passe ou email est vide", Toast.LENGTH_SHORT).show();
                     //return;
                 } else if (!Rembme.isChecked()) {
@@ -100,7 +116,7 @@ public class Login extends AppCompatActivity {
             BufferedReader br = new BufferedReader(reader);
             String text = br.readLine();
             String[] arr = text.split("#");
-            Email.setText(arr[4]);
+            Username.setText(arr[4]);
             Password.setText(arr[1]);
             br.close();
         } catch (Exception e) {
