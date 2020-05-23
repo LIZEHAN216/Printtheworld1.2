@@ -87,7 +87,7 @@ public class Login extends AppCompatActivity {
                     Toast.makeText(Login.this, "Votre password < 5 bytes",Toast.LENGTH_SHORT).show();
                 }else {
                     Intent intent = new Intent();
-                    intent.setClass(Login.this, MainActivity.class);
+                    intent.setClass(Login.this, map.class);
                     startActivity(intent);
                 }
             }
@@ -124,12 +124,7 @@ public class Login extends AppCompatActivity {
         }
     }
 
-    public boolean isEmail(String email) {
-        String str = "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
-        Pattern p = Pattern.compile(str);
-        Matcher m = p.matcher(email);
-        return m.matches();
-    }
+
 
     public boolean isPassword(String password){
         if(password.length()<5){

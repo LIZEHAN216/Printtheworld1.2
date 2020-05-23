@@ -1,138 +1,166 @@
 [
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_activity_drawing.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/activity_drawing.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_inscription.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\activity_inscription.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_app_bar_map.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/app_bar_map.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_redo.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\redo.png"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_theme.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/theme.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_app_bar_map.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\app_bar_map.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_camera.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\camera.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_undo.png.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/undo.png"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_drawing.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\activity_drawing.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/xml_network_security_config.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/xml/network_security_config.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_content_map.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\content_map.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_nav_header_map.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/nav_header_map.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_photo_provider.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\photo_provider.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_content_map.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/content_map.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_map.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\map.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_side_nav_bar.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/side_nav_bar.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_cross.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\cross.png"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_map.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/map.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_phone.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\phone.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_setting.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/setting.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_premiumpaint.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\premiumpaint.png"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/menu_activity_map_drawer.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/menu/activity_map_drawer.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_side_nav_bar.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\side_nav_bar.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_border.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/border.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_theme.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\theme.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_fragment_second.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/fragment_second.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_globe.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\globe.png"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_activity_inscription.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/activity_inscription.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_undo.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\undo.png"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_activity_login.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/activity_login.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_gallery.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/gallery.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_view_item.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\list_view_item.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_list_view_item.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/list_view_item.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_globe_background.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\globe_background.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_phone.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/phone.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_premiumpaintalpha.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\premiumpaintalpha.png"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/xml_provider_paths.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/xml/provider_paths.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\menu_activity_map_drawer.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\menu\\activity_map_drawer.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_fragment_third.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/fragment_third.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_grid_view.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/grid_view.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\xml\\network_security_config.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_activity_main.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/activity_main.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_setting.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\setting.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_icon.png.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/icon.png"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\circle.png"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_camera.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/camera.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\border.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_redo.png.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/redo.png"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\xml_provider_paths.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\xml\\provider_paths.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_fragment_first.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/fragment_first.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gallery.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\gallery.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/navigation_mobile_navigation.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/navigation/mobile_navigation.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_regularpaintalpha2.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\regularpaintalpha2.png"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_ic_launcher_background.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_grid_view.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\grid_view.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_cross.png.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/cross.png"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_nav_header_map.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\nav_header_map.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_activity_map.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/activity_map.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_icon.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\icon.png"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_circle.png.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/circle.png"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_second.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\fragment_second.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/layout_dialog_select_photo.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/layout/dialog_select_photo.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/build/intermediates/res/merged/debug/drawable_photo_provider.xml.flat",
-        "source": "/home/lizehan/Android/paint-the-world-master/PainttheWorldApp/app/src/main/res/drawable/photo_provider.xml"
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_premiumpaintalpha2.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\premiumpaintalpha2.png"
+    },
+    {
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_regularpaintalpha.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\regularpaintalpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_first.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\fragment_first.xml"
+    },
+    {
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\navigation_mobile_navigation.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\navigation\\mobile_navigation.xml"
+    },
+    {
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_select_photo.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\dialog_select_photo.xml"
+    },
+    {
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable_regularppaint.png.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\drawable\\regularppaint.png"
+    },
+    {
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_map.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\activity_map.xml"
+    },
+    {
+        "merged": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_third.xml.flat",
+        "source": "C:\\Users\\Li Zehan\\Desktop\\Printtheworld1.2-master (1)\\Printtheworld1.2-master\\app\\src\\main\\res\\layout\\fragment_third.xml"
     }
 ]

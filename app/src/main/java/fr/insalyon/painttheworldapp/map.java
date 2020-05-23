@@ -26,6 +26,8 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 
+import fr.insalyon.painttheworldapp.util.PermissionUtils;
+
 public class map extends AppCompatActivity {
 
     private AppBarConfiguration mAppBarConfiguration;
@@ -62,11 +64,13 @@ public class map extends AppCompatActivity {
         image = new File(ext, "head.jpeg");
         uriSavedImage = FileProvider.getUriForFile(this,
                 this.getPackageName() + ".provider", image);
+        PermissionUtils.verify(this);
         file = new File(ext,"user.txt");
         loadinfo(file, image, uriSavedImage, email, prenom, head);
     }
 
     public static void loadinfo(File file,File image, Uri uri, TextView email, TextView prenom, ImageView head) {
+        head.setImageResource(R.drawable.ic_launcher_foreground);
         try {
             if(!image.exists()) {
                 FileReader reader = new FileReader(file);

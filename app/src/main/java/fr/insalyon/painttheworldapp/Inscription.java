@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.StrictMode;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -31,7 +32,11 @@ public class Inscription extends AppCompatActivity {
     File ext = Environment.getExternalStorageDirectory();
     private static String baseURL = "https://paint.antoine-rcbs.ovh/inscription";
     public Inscription(){}
-
+    private String email;
+    private String password;
+    private String nom;
+    private String prenom;
+    private String username;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -54,14 +59,14 @@ public class Inscription extends AppCompatActivity {
 
             public void onClick(View v) {
                 try {
-                    String email = Email.getText().toString().trim();
-                    String password = Password.getText().toString().trim();
-                    String nom = Nom.getText().toString().trim();
-                    String prenom = Prenom.getText().toString().trim();
-                    String username = Username.getText().toString().trim();
-                    File file = new File(ext, "user.txt");
-                    Map<String, String> data =  new HashMap<String, String>();
+                    email = Email.getText().toString().trim();
+                    password = Password.getText().toString().trim();
+                    nom = Nom.getText().toString().trim();
+                    prenom = Prenom.getText().toString().trim();
+                    username = Username.getText().toString().trim();
                     PermissionUtils.verify(Inscription.this);
+                    File file = new File(ext, "user.txt");
+
                     OutputStream out = new FileOutputStream(file);
                     OutputStreamWriter osw = new OutputStreamWriter(out, StandardCharsets.UTF_8);
                     BufferedWriter writer = new BufferedWriter(osw);
@@ -69,7 +74,17 @@ public class Inscription extends AppCompatActivity {
                             "#" + username);
                     writer.flush();
                     writer.close();
-
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                if(TextUtils.isEmpty(username)||TextUtils.isEmpty(nom)||TextUtils.isEmpty(prenom)||TextUtils.isEmpty(password)||TextUtils.isEmpty(email)){
+                    Toast.makeText(Inscription.this, "Il faut tout remplir", Toast.LENGTH_SHORT).show();
+                }else if (!isEmail(Email.getText().toString())) {
+                    Toast.makeText(Inscription.this, "Votre email est non correct.", Toast.LENGTH_SHORT).show();
+                }else if (!isPassword(Password.getText().toString())) {
+                    Toast.makeText(Inscription.this, "Votre password < 5 bytes", Toast.LENGTH_SHORT).show();
+                } else {
+                    Map<String, String> data =  new HashMap<String, String>();
                     Map<String,String> params = new HashMap<String, String>();
                     params.put("name", nom);
                     params.put("p_nom", prenom);
@@ -80,28 +95,12 @@ public class Inscription extends AppCompatActivity {
 
                     String strResult=HttpUtils.submitPostData(baseURL,params, "utf-8");
 
-                } catch (Exception e) {
-                    e.printStackTrace();
-                }
-
-//                if (!isEmail(Email.getText().toString())) {
-//                    Toast.makeText(Inscription.this, "Votre email est non correct.", Toast.LENGTH_SHORT).show();
-                if (!isPassword(Password.getText().toString())) {
-                    Toast.makeText(Inscription.this, "Votre password < 5 bytes", Toast.LENGTH_SHORT).show();
-                } else {
                     Intent intent = new Intent();
-                    intent.setClass(Inscription.this, MainActivity.class);
+                    intent.setClass(Inscription.this, map.class);
                     startActivity(intent);
                 }
             }
         });
-    }
-
-    public boolean isEmail(String email) {
-        String str = "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
-        Pattern p = Pattern.compile(str);
-        Matcher m = p.matcher(email);
-        return m.matches();
     }
 
     public boolean isPassword(String password){
@@ -110,5 +109,12 @@ public class Inscription extends AppCompatActivity {
         }else{
             return true;
         }
+    }
+
+    public boolean isEmail(String email) {
+        String str = "^([a-zA-Z0-9_\\-\\.]+)@((\\[[0-9]{1,3}\\.[0-9]{1,3}\\.[0-9]{1,3}\\.)|(([a-zA-Z0-9\\-]+\\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\\]?)$";
+        Pattern p = Pattern.compile(str);
+        Matcher m = p.matcher(email);
+        return m.matches();
     }
 }

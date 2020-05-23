@@ -11,12 +11,13 @@ import android.graphics.PorterDuff;
 import android.view.MotionEvent;
 import android.view.View;
 
+import androidx.fragment.app.Fragment;
+
 import org.osmdroid.api.IGeoPoint;
+import org.osmdroid.util.GeoPoint;
 import org.osmdroid.views.Projection;
 
 import java.util.ArrayList;
-
-import fr.insalyon.painttheworldapp.MainActivity;
 
 @SuppressLint("ViewConstructor")
 public class MyCanvas extends View {
@@ -39,11 +40,11 @@ public class MyCanvas extends View {
     private ArrayList<ArrayList<Integer>> lineInfo = new ArrayList<>();
     private ArrayList<ArrayList<Integer>> undoneLineInfo = new ArrayList<>();
     private ArrayList<Point> listPoint = new ArrayList<>();
-    private Fragment_first MA;
+    private Fragment_first DV;
 
-    public MyCanvas(Context context, Fragment_first mainact) {
+    public MyCanvas(Context context, Fragment_first fragment_first) {
         super(context);
-        MA=mainact;
+        DV=fragment_first;
         paint = new Paint();
         path = new Path();
         setupPaint(paint);
@@ -56,7 +57,6 @@ public class MyCanvas extends View {
         p.setStyle(Paint.Style.STROKE);
         p.setStrokeCap(Paint.Cap.ROUND);
         p.setStrokeWidth((float) thickness /ratio);
-        System.out.println("paint setup");
     }
 
     public void ratioChange(int r){
@@ -76,8 +76,8 @@ public class MyCanvas extends View {
         lineInfo.clear();
         undoneLineInfo.clear();
         listPoint.clear();
-        MA.displayUndoRedo(false, false);
-        MA.ActivateZoomButton(true);
+        DV.displayUndoRedo(false, false);
+        DV.ActivateZoomButton(true);
     }
     @Override
     protected void onSizeChanged(int w, int h, int oldW, int oldH) {
@@ -87,13 +87,12 @@ public class MyCanvas extends View {
         x= myCanvas.getWidth();
         y= myCanvas.getHeight();
         //rayon=(int)(Integer.min(x,y)*0.45)/ratio;
-        radius = MA.getRadius();
+        radius = DV.getRadius();
     }
 
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        System.out.println("drawing");
         for (int i=0; i<paths.size();i++){
             canvas.drawBitmap(bitmap, 0,0,paints.get(i));
             canvas.drawPath(paths.get(i), paints.get(i));
@@ -108,7 +107,6 @@ public class MyCanvas extends View {
     public boolean onTouchEvent(MotionEvent event) {
         float xPos = event.getX();
         float yPos = event.getY();
-        System.out.println("x="+ xPos +" ; y="+ yPos + "ratio " + ratio);
 
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
@@ -121,8 +119,8 @@ public class MyCanvas extends View {
                     undonePaints.clear();
                     path.moveTo(xPos, yPos);
                     listPoint.add(new Point((int)xPos,(int)yPos));
-                    MA.ActivateZoomButton(false);
-                    MA.ActivateOtherButton(false);
+                    DV.ActivateZoomButton(false);
+                    DV.ActivateOtherButton(false);
                     return true;
                 }
             case MotionEvent.ACTION_MOVE:
@@ -146,8 +144,8 @@ public class MyCanvas extends View {
                 path = new Path();
                 paint=new Paint();
                 setupPaint(paint);
-                MA.displayUndoRedo(canUndo(),canRedo());
-                MA.ActivateOtherButton(true);
+                DV.displayUndoRedo(canUndo(),canRedo());
+                DV.ActivateOtherButton(true);
                 break;
             default :
                 return false;
@@ -167,9 +165,8 @@ public class MyCanvas extends View {
             undoneLine.add(listLine.remove(listLine.size()-1));
             undoneLineInfo.add(lineInfo.remove(lineInfo.size()-1));
             invalidate();
-            System.out.println("undo");
         }
-        MA.displayUndoRedo(canUndo(),canRedo());
+        DV.displayUndoRedo(canUndo(),canRedo());
         return canUndo();
     }
 
@@ -185,9 +182,8 @@ public class MyCanvas extends View {
             listLine.add(undoneLine.remove(undoneLine.size()-1));
             lineInfo.add(undoneLineInfo.remove(undoneLineInfo.size()-1));
             invalidate();
-            System.out.println("redo");
         }
-        MA.displayUndoRedo(canUndo(),canRedo());
+        DV.displayUndoRedo(canUndo(),canRedo());
         return canUndo();
     }
 
@@ -215,13 +211,13 @@ public class MyCanvas extends View {
         return lineInfo;
     }*/
 
-    private ArrayList<ArrayList<IGeoPoint>> getGeoPoints(){
-        Projection pro = MA.getMap().getProjection();
-        ArrayList<ArrayList<IGeoPoint>> r = new ArrayList<>();
+    private ArrayList<ArrayList<GeoPoint>> getGeoPoints(){
+        Projection pro = DV.getMap().getProjection();
+        ArrayList<ArrayList<GeoPoint>> r = new ArrayList<>();
         for (ArrayList<Point> a : listLine){
-            ArrayList<IGeoPoint> listGeoPoint = new ArrayList<>();
+            ArrayList<GeoPoint> listGeoPoint = new ArrayList<>();
             for (Point p : a){
-                IGeoPoint geoP=pro.fromPixels(p.x,p.y);
+                GeoPoint geoP=(GeoPoint)pro.fromPixels(p.x,p.y);
                 listGeoPoint.add(geoP);
             }
             r.add(listGeoPoint);
@@ -231,10 +227,12 @@ public class MyCanvas extends View {
 
     public ArrayList<MapDrawingLine> getMapDrawingLines() {
         ArrayList<MapDrawingLine> mdl = new ArrayList<>();
-        ArrayList<ArrayList<IGeoPoint>> geo = getGeoPoints();
+        ArrayList<ArrayList<GeoPoint>> geo = getGeoPoints();
         for (int i = 0; i < geo.size(); i++) {
             mdl.add(new MapDrawingLine(geo.get(i), lineInfo.get(i).get(0), lineInfo.get(i).get(1)));
+            //DV.addPolyline(geo.get(i), lineInfo.get(i).get(0), lineInfo.get(i).get(1), DV.getPremium());
         }
         return  mdl;
     }
+
 }
