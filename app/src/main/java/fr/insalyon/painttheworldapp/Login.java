@@ -74,7 +74,7 @@ public class Login extends AppCompatActivity {
                 params.put("username", username);
                 params.put("password", password);
 
-                String strResult= HttpUtils.submitPostData(baseURL,params, "utf-8");
+                //String strResult= HttpUtils.submitPostData(baseURL,params, "utf-8");
                 if (TextUtils.isEmpty(username) || TextUtils.isEmpty(password)) {
                     Toast.makeText(Login.this, "Mot de passe ou email est vide", Toast.LENGTH_SHORT).show();
                     //return;

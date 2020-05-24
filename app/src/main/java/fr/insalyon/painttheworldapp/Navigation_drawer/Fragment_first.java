@@ -704,26 +704,7 @@ public class Fragment_first extends Fragment implements IMyLocationConsumer, Vie
     }
 
 
-    private Bitmap getBitmap(Activity activity){
-        View view = activity.getWindow().getDecorView();
-        view.setDrawingCacheEnabled(true);
-        view.buildDrawingCache();
-        bitmap = view.getDrawingCache();
-        Rect frame = new Rect();
-        activity.getWindow().getDecorView().getWindowVisibleDisplayFrame(frame);
-        int toHeight = frame.top;
-        bitmap = Bitmap.createBitmap(bitmap, x, y+2*toHeight + 108, width, height);
-        try {
 
-            FileOutputStream fout = new FileOutputStream(new File(ext,"testScreenShot.png"));
-            bitmap.compress(Bitmap.CompressFormat.PNG, 100, fout);
-        } catch (FileNotFoundException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
-        }
-        view.setDrawingCacheEnabled(false);
-        return bitmap;
-    }
 
     public boolean onKeyUp(int keyCode, KeyEvent event) {
         AlertDialog.Builder alertExit = new AlertDialog.Builder(context);

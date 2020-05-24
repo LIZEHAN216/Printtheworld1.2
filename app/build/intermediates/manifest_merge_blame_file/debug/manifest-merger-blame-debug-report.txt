@@ -6,165 +6,168 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="25"
-8-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml
+8-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml
+9-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml
 10
 11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-11-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:5:5-79
-11-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:5:22-76
+11-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:6:5-79
+11-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:6:22-76
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:6:5-67
-12-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:6:22-64
+12-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:7:5-67
+12-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:7:22-64
 13    <uses-permission android:name="android.permission.ANSWER_PHONE_CALLS" />
-13-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:7:5-77
-13-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:7:22-74
+13-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:8:5-77
+13-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:8:22-74
 14    <uses-permission android:name="android.permission.CALL_PHONE" />
-14-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:8:5-68
-14-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:8:22-66
+14-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:9:5-68
+14-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:9:22-66
 15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:9:5-79
-15-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:9:22-76
+15-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:10:5-79
+15-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:10:22-76
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:10:5-81
-16-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:10:22-78
+16-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:11:5-81
+16-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:11:22-78
 17    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-17-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:11:5-75
-17-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:11:22-73
+17-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:12:5-75
+17-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:12:22-73
 18    <uses-permission android:name="android.permission.INTERNET" />
-18-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:6:5-67
-18-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:6:22-64
+18-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:7:5-67
+18-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:7:22-64
 19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-19-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:9:5-79
-19-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:9:22-76
+19-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:10:5-79
+19-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:10:22-76
 20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:14:5-79
-20-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:14:22-77
-21
-22    <supports-screens
-22-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:11:5-14:40
-23        android:anyDensity="true"
-23-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:12:9-34
-24        android:largeScreens="true"
-24-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:13:9-36
-25        android:normalScreens="true" />
-25-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:14:9-37
-26
-27    <uses-feature
-27-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:16:5-18:36
-28        android:name="android.hardware.location.network"
-28-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:17:9-57
-29        android:required="false" />
-29-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:18:9-33
-30    <uses-feature
-30-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:19:5-21:36
-31        android:name="android.hardware.location.gps"
-31-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:20:9-53
-32        android:required="false" />
-32-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:21:9-33
-33    <uses-feature
-33-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:22:5-24:36
-34        android:name="android.hardware.telephony"
-34-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:23:9-50
-35        android:required="false" />
-35-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:24:9-33
-36    <uses-feature
-36-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:25:5-27:36
-37        android:name="android.hardware.wifi"
-37-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:26:9-45
-38        android:required="false" />
-38-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:27:9-33
-39
-40    <application
-40-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:16:5-47:19
-41        android:allowBackup="true"
-41-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:17:9-35
-42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-42-->[androidx.core:core:1.1.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
-43        android:debuggable="true"
-44        android:extractNativeLibs="false"
-45        android:icon="@drawable/icon"
-45-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:18:9-38
-46        android:label="@string/app_name"
-46-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:19:9-41
-47        android:networkSecurityConfig="@xml/network_security_config"
-47-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:22:9-69
-48        android:supportsRtl="true"
-48-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:20:9-35
-49        android:testOnly="true"
-50        android:theme="@style/AppTheme"
-50-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:21:9-40
-51        android:usesCleartextTraffic="true" >
-51-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:23:9-44
-52        <activity
-52-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:24:9-27:58
-53            android:name="fr.insalyon.painttheworldapp.map"
-53-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:25:13-32
-54            android:label="@string/title_activity_map"
-54-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:26:13-55
-55            android:theme="@style/AppTheme.NoActionBar" />
-55-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:27:13-56
-56        <activity android:name="fr.insalyon.painttheworldapp.Inscription" />
-56-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:30:9-49
-56-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:30:19-46
-57        <activity android:name="fr.insalyon.painttheworldapp.Login" >
-57-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:31:9-37:20
-57-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:31:19-40
-58            <intent-filter>
-58-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:32:13-36:29
-59                <action android:name="android.intent.action.MAIN" />
-59-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:33:17-69
-59-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:33:25-66
-60
-61                <category android:name="android.intent.category.LAUNCHER" />
-61-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:35:17-77
-61-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:35:27-74
-62            </intent-filter>
-63        </activity>
-64
-65        <provider
-66            android:name="androidx.core.content.FileProvider"
-66-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:41:13-62
-67            android:authorities="com.lzw.mongodbdemo.provider"
-67-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:40:13-60
-68            android:exported="false"
-68-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:42:13-37
-69            android:grantUriPermissions="true" >
-69-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:43:13-47
-70            <meta-data
-70-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:44:13-45:68
-71                android:name="android.support.FILE_PROVIDER_PATHS"
-71-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:44:24-74
-72                android:resource="@xml/provider_paths" />
-72-->C:\Users\Li Zehan\Desktop\Printtheworld1.2-master (1)\Printtheworld1.2-master\app\src\main\AndroidManifest.xml:45:17-55
-73        </provider>
-74
-75        <activity
-75-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
-76            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
-77            android:exported="false"
-77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
-78            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
-79
-80        <meta-data
-80-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
-81            android:name="com.google.android.gms.version"
-81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
-82            android:value="@integer/google_play_services_version" />
-82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
-83
-84        <provider
-84-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
-85            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-85-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
-86            android:authorities="com.lzw.mongodbdemo.lifecycle-process"
-86-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
-87            android:exported="false"
-87-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
-88            android:multiprocess="true" />
-88-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
-89    </application>
-90
-91</manifest>
+20-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:15:5-79
+20-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:15:22-77
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:11:5-81
+21-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:11:22-78
+22
+23    <supports-screens
+23-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:11:5-14:40
+24        android:anyDensity="true"
+24-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:12:9-34
+25        android:largeScreens="true"
+25-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:13:9-36
+26        android:normalScreens="true" />
+26-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:14:9-37
+27
+28    <uses-feature
+28-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:16:5-18:36
+29        android:name="android.hardware.location.network"
+29-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:17:9-57
+30        android:required="false" />
+30-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:18:9-33
+31    <uses-feature
+31-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:19:5-21:36
+32        android:name="android.hardware.location.gps"
+32-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:20:9-53
+33        android:required="false" />
+33-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:21:9-33
+34    <uses-feature
+34-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:22:5-24:36
+35        android:name="android.hardware.telephony"
+35-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:23:9-50
+36        android:required="false" />
+36-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:24:9-33
+37    <uses-feature
+37-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:25:5-27:36
+38        android:name="android.hardware.wifi"
+38-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:26:9-45
+39        android:required="false" />
+39-->[org.osmdroid:osmdroid-android:6.1.5] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\04d2b1d5ea5355eda341c189209c3584\jetified-osmdroid-android-6.1.5\AndroidManifest.xml:27:9-33
+40
+41    <application
+41-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:18:5-49:19
+42        android:allowBackup="true"
+42-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:19:9-35
+43        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+43-->[androidx.core:core:1.1.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\34b4ab0d8b65ac74ddd00d45b26dd963\core-1.1.0\AndroidManifest.xml:24:18-86
+44        android:debuggable="true"
+45        android:extractNativeLibs="false"
+46        android:icon="@drawable/icon"
+46-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:20:9-38
+47        android:label="@string/app_name"
+47-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:21:9-41
+48        android:networkSecurityConfig="@xml/network_security_config"
+48-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:24:9-69
+49        android:supportsRtl="true"
+49-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:22:9-35
+50        android:testOnly="true"
+51        android:theme="@style/AppTheme"
+51-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:23:9-40
+52        android:usesCleartextTraffic="true" >
+52-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:25:9-44
+53        <activity
+53-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:26:9-29:58
+54            android:name="fr.insalyon.painttheworldapp.map"
+54-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:27:13-32
+55            android:label="@string/title_activity_map"
+55-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:28:13-55
+56            android:theme="@style/AppTheme.NoActionBar" />
+56-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:29:13-56
+57        <activity android:name="fr.insalyon.painttheworldapp.Inscription" />
+57-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:32:9-49
+57-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:32:19-46
+58        <activity android:name="fr.insalyon.painttheworldapp.Login" >
+58-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:33:9-39:20
+58-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:33:19-40
+59            <intent-filter>
+59-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:34:13-38:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:35:17-69
+60-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:35:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:37:17-77
+62-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:37:27-74
+63            </intent-filter>
+64        </activity>
+65
+66        <provider
+67            android:name="androidx.core.content.FileProvider"
+67-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:43:13-62
+68            android:authorities="com.lzw.mongodbdemo.provider"
+68-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:42:13-60
+69            android:exported="false"
+69-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:44:13-37
+70            android:grantUriPermissions="true" >
+70-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:45:13-47
+71            <meta-data
+71-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:46:13-47:68
+72                android:name="android.support.FILE_PROVIDER_PATHS"
+72-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:46:24-74
+73                android:resource="@xml/provider_paths" />
+73-->C:\Users\Li Zehan\Documents\GitHub\Printtheworld1.2\app\src\main\AndroidManifest.xml:47:17-55
+74        </provider>
+75
+76        <activity
+76-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+77            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+77-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+78            android:exported="false"
+78-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+79            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+79-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\d810550874c071a7f5afc391a91fdc61\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+80
+81        <meta-data
+81-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+82            android:name="com.google.android.gms.version"
+82-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+83            android:value="@integer/google_play_services_version" />
+83-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\5feaec8abf5f0f657ccb7d51c61164e6\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+84
+85        <provider
+85-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+86            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+86-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+87            android:authorities="com.lzw.mongodbdemo.lifecycle-process"
+87-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+88            android:exported="false"
+88-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+89            android:multiprocess="true" />
+89-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Li Zehan\.gradle\caches\transforms-2\files-2.1\a7777210eeae7ec0839470505116d148\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+90    </application>
+91
+92</manifest>

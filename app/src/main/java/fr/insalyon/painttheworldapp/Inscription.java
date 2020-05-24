@@ -30,6 +30,7 @@ public class Inscription extends AppCompatActivity {
     private EditText Email,Password,Nom,Prenom,Username;
     private Button Inscription;
     File ext = Environment.getExternalStorageDirectory();
+
     private static String baseURL = "https://paint.antoine-rcbs.ovh/inscription";
     public Inscription(){}
     private String email;
@@ -54,6 +55,10 @@ public class Inscription extends AppCompatActivity {
         Inscription = findViewById(R.id.inscription);
         Username  =findViewById(R.id.username);
 
+        PermissionUtils.verify(Inscription.this);
+        System.out.println("111111111111111111111111");
+
+
         Inscription.setOnClickListener(new View.OnClickListener() {
 
 
@@ -64,7 +69,8 @@ public class Inscription extends AppCompatActivity {
                     nom = Nom.getText().toString().trim();
                     prenom = Prenom.getText().toString().trim();
                     username = Username.getText().toString().trim();
-                    PermissionUtils.verify(Inscription.this);
+                    System.out.println("123");
+
                     File file = new File(ext, "user.txt");
 
                     OutputStream out = new FileOutputStream(file);
