@@ -1,5 +1,7 @@
 package fr.insalyon.painttheworldapp;
 
+import android.accounts.Account;
+import android.accounts.AccountManager;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Environment;
@@ -56,12 +58,8 @@ public class Inscription extends AppCompatActivity {
         Username  =findViewById(R.id.username);
 
         PermissionUtils.verify(Inscription.this);
-        System.out.println("111111111111111111111111");
-
 
         Inscription.setOnClickListener(new View.OnClickListener() {
-
-
             public void onClick(View v) {
                 try {
                     email = Email.getText().toString().trim();
@@ -99,8 +97,6 @@ public class Inscription extends AppCompatActivity {
                     params.put("password1", password);
                     params.put("password2", password);
 
-                    String strResult=HttpUtils.submitPostData(baseURL,params, "utf-8");
-
                     Intent intent = new Intent();
                     intent.setClass(Inscription.this, map.class);
                     startActivity(intent);
@@ -123,4 +119,6 @@ public class Inscription extends AppCompatActivity {
         Matcher m = p.matcher(email);
         return m.matches();
     }
+
+
 }
